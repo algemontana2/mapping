@@ -3,7 +3,7 @@ import googlemaps
 from collections import defaultdict
 
 # Your Google API key
-API_KEY = 'AIzaSyA1FrSysTzt3UAvQzrzUGOXt5MlhyKKdoY'
+API_KEY = ''
 
 # Create a client
 gmaps = googlemaps.Client(key=API_KEY)
