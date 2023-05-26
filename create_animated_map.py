@@ -12,15 +12,16 @@ with open('geocoded_individuals.json') as f:
 flattened_data = []
 for d in data:
     name = d['name']
-    for r in d['residences']:
-        flattened_data.append({
+    flattened_data.extend(
+        {
             'name': name,
             'date': r.get('dates'),
             'place': r['place'],
             'latitude': r.get('latitude'),
             'longitude': r.get('longitude'),
-        })
-
+        }
+        for r in d['residences']
+    )
 # Convert the flattened data to a DataFrame
 df = pd.DataFrame(flattened_data)
 

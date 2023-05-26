@@ -10,7 +10,7 @@ def load_residence_data(file_path):
 
 def create_feature(residence):
     """Create a feature for a residence with the required properties."""
-    feature = {
+    return {
         'type': 'Feature',
         'geometry': {
             'type': 'Point',
@@ -24,12 +24,11 @@ def create_feature(residence):
                 'fillColor': 'red',
                 'fillOpacity': 0.6,
                 'stroke': 'false',
-                'radius': 13
+                'radius': 13,
             },
             'popup': residence['name'],
-        }
+        },
     }
-    return feature
 
 def create_map(data):
     """Create a Folium Map with timestamped geojson features."""

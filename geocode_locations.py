@@ -54,15 +54,13 @@ def geocode_place(place):
 def geocode_events(individual):
     for event in ['birth', 'death']:
         if event in individual and 'place' in individual[event]:
-            location = geocode_place(individual[event]['place'])
-            if location:
+            if location := geocode_place(individual[event]['place']):
                 individual[event]['latitude'] = location['lat']
                 individual[event]['longitude'] = location['lng']
 
     for residence in individual['residences']:
         place = residence['place']
-        location = geocode_place(place)
-        if location:
+        if location := geocode_place(place):
             residence['latitude'] = location['lat']
             residence['longitude'] = location['lng']
 
