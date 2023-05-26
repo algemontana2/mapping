@@ -1,0 +1,286 @@
+[
+  {
+    "name": "John Doe",
+    "birth": {
+      "date": "01 Jan 1980",
+      "place": "City, Country"
+    },
+    "death": {
+      "date": "01 Jan 2050",
+      "place": "City, Country"
+    },
+    "residences": [
+      {
+        "dates": ["1990", "1995", "2000"],
+        "place": "City1, Country",
+        "latitude": 12.3456,
+        "longitude": 78.9012
+      },
+      {
+        "dates": "2005",
+        "place": "City2, Country",
+        "latitude": null,
+        "longitude": 78.9012
+      },
+      {
+        "dates": "2010",
+        "place": "City3, Country",
+        "latitude": 12.3456,
+        "longitude": null
+      },
+      {
+        "dates": null,
+        "place": "City4, Country",
+        "latitude": null,
+        "longitude": null
+      }
+    ]
+  },
+  {
+    "name": "Jane Smith",
+    "birth": {
+      "date": "15 Feb 1975",
+      "place": "City, Country"
+    },
+    "death": null,
+    "residences": [
+      {
+        "dates": ["1990", "1995", "2000"],
+        "place": "City1, Country",
+        "latitude": 12.3456,
+        "longitude": 78.9012
+      },
+      {
+        "dates": "2005",
+        "place": "City2, Country",
+        "latitude": null,
+        "longitude": 78.9012
+      },
+      {
+        "dates": "2010",
+        "place": "City3, Country",
+        "latitude": 12.3456,
+        "longitude": null
+      },
+      {
+        "dates": null,
+        "place": "City4, Country",
+        "latitude": null,
+        "longitude": null
+      }
+    ]
+  },
+  {
+    "name": "David Johnson",
+    "birth": {
+      "date": "10 Mar 1985",
+      "place": "City, Country"
+    },
+    "death": {
+      "date": "01 Jan 2050",
+      "place": null
+    },
+    "residences": [
+      {
+        "dates": "2000",
+        "place": "City1, Country",
+        "latitude": 12.3456,
+        "longitude": 78.9012
+      },
+      {
+        "dates": "2005",
+        "place": "City2, Country",
+        "latitude": 12.3456,
+        "longitude": 78.9012
+      },
+      {
+        "dates": "2010",
+        "place": "City3, Country",
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "dates": null,
+        "place": "City4, Country",
+        "latitude": null,
+        "longitude": null
+      }
+    ]
+  },
+  {
+    "name": "Sarah Johnson",
+    "birth": {
+      "date": "20 Jul 1990",
+      "place": "City, Country"
+    },
+    "death": null,
+    "residences": [
+      {
+        "dates": ["2005", "2010", "2015"],
+        "place": "City1, Country",
+        "latitude": 12.3456,
+"longitude": 78.9012
+},
+{
+"dates": "2020",
+"place": "City2, Country",
+"latitude": null,
+"longitude": 78.9012
+},
+{
+"dates": "2025",
+"place": "City3, Country",
+"latitude": 12.3456,
+"longitude": null
+},
+{
+"dates": null,
+"place": "City4, Country",
+"latitude": null,
+"longitude": null
+}
+]
+},
+{
+"name": "Michael Brown",
+"birth": {
+"date": "05 Sep 1978",
+"place": "City, Country"
+},
+"death": {
+"date": "01 Jan 2050",
+"place": "City, Country"
+},
+"residences": [
+{
+"dates": "1995",
+"place": "City1, Country",
+"latitude": 12.3456,
+"longitude": 78.9012
+},
+{
+"dates": "2000",
+"place": "City2, Country",
+"latitude": 12.3456,
+"longitude": 78.9012
+},
+{
+"dates": "2005",
+"place": "City3, Country",
+"latitude": null,
+"longitude": null
+},
+{
+"dates": null,
+"place": "City4, Country",
+"latitude": null,
+"longitude": null
+}
+]
+},
+{
+"name": "Sophia Brown",
+"birth": {
+"date": "10 Oct 1982",
+"place": "City, Country"
+},
+"death": null,
+"residences": [
+{
+"dates": ["1995", "2000", "2005"],
+"place": "City1, Country",
+"latitude": 12.3456,
+"longitude": 78.9012
+},
+{
+"dates": "2010",
+"place": "City2, Country",
+"latitude": null,
+"longitude": 78.9012
+},
+{
+"dates": "2015",
+"place": "City3, Country",
+"latitude": 12.3456,
+"longitude": null
+},
+{
+"dates": null,
+"place": "City4, Country",
+"latitude": null,
+"longitude": null
+}
+]
+},
+{
+"name": "Robert Wilson",
+"birth": {
+"date": "12 May 1995",
+"place": "City, Country"
+},
+"death": {
+"date": null,
+"place": "City, Country"
+},
+"residences": [
+{
+"dates": "2010",
+"place": "City1, Country",
+"latitude": 12.3456,
+"longitude": 78.9012
+},
+{
+"dates": "2015",
+"place": "City2, Country",
+"latitude": null,
+"longitude": 78.9012
+},
+{
+"dates": "2020",
+"place": "City3, Country",
+"latitude": 12.3456,
+"longitude": null
+},
+{
+"dates": null,
+"place": "City4, Country",
+"latitude": null,
+"longitude": null
+}
+]
+},
+{
+"name": "Olivia Wilson",
+"birth": {
+"date": "25 Apr 1998",
+"place": "City, Country"
+},
+"death": null,
+"residences": [
+{
+"dates": ["2015", "2020", "2025"],
+"place": "City1, Country",
+"latitude": 12.3456,
+"longitude": 78.9012
+},
+{
+"dates": "2030",
+"place": "City2, Country",
+"latitude": null,
+"longitude": 78.9012
+},
+{
+"dates": "2035",
+"place": "City3, Country",
+"latitude": 12.3456,
+"longitude": null
+},
+{
+"dates": null,
+"place": "City4, Country",
+"latitude": null,
+"longitude": null
+}
+]
+}
+]
